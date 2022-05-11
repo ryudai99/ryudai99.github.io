@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <meta charset="UTF-8">
   <title>自己紹介ページ</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
 </head>
 <body>
 
@@ -25,21 +26,27 @@
   <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
 
 
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container"　id="top">
-          <h1 class="display-4"　　>皆様はじめまして。</h1>
+    <div class="jumbotron jumbotron-fluid bg-primary" id="top">
+        <div class="container">
+          <h1 class="display-4">はじめまして。藤野琉大です。</h1>
           <p class="lead">このページでは自分が好きなものを軽く紹介していきます。</p>
+          <p></p>
         </div>
     </div>
-    <div class="jumbotron"　>
-      <h1 　class="display-4"　>好きなもの</h1>
-      <p class="lead">米津玄師とRADWIMPSが特に好きです。女王蜂とかamazarashiも一緒に聴くことが多いです。</p>
-      <p>モルカーの推しは<strong>シロモ</strong>。テディと救急車モルカーも好きです。</p>
+    <div class="jumbotron bg-info" id="fat">
+      <div class="container">
+      <h1 class="display-4"><u class="font-weight-normal">好きなもの</u></h1>
+      <p class="lead"><span class="text-danger font-weight-bold">米津玄師</span>と<span class="text-danger font-weight-bold">RADWIMPS</span>が特に好きです。女王蜂とかamazarashiも一緒に聴くことが多いです。</p>
+      <p>モルカーの推しは<strong class="text-danger">シロモ</strong>。テディと救急車モルカーも好きです。</p>
       <hr class="my-4">
       <P>ゲームは下手なんで特別はまらない限りはあんまやらないです。はまったのはモンハン、マリカー、fall guysくらいですかね。</P>
+      </div>
     </div>
-    <h4 id="mdo">おまけ</h4>
-    <p>所々で気付く自分のpcスキルの無さって悲しいものがありますよね。同じ人います？</p>
+    <div class="alert alert-primary" role="alert" id="mdo">
+      <div class="container">
+      所々で気付く自分のpcスキルの無さって悲しいものがありますよね。同じ人います？
+      </div>
+    </div>
 
   </div>
 
