@@ -115,105 +115,10 @@ let DJ2 = function () {
              <img src="${[i].avatar}" alt="" width="100" height="100"> 
              ${DJ[i].message}
              </div>`;
-    let 2 = function () {
-      html = "";
-      html +=`<b> : </b><a></a>`
-      for (let i = 0; i < .length; i++) {
-        html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
-             <img src="${[i].avatar}" alt="" width="100" height="100"> 
-             ${[i].message}
-             </div>`;
-      }
-      answer.innerHTML = html;
-    };
-    let 2 = function () {
-      html = "";
-      html +=`<b> : </b><a></a>`
-      for (let i = 0; i < .length; i++) {
-        html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
-             <img src="${[i].avatar}" alt="" width="100" height="100"> 
-             ${[i].message}
-             </div>`;
-      }
-      answer.innerHTML = html;
-    };
-    let 2 = function () {
-      html = "";
-      html +=`<b> : </b><a></a>`
-      for (let i = 0; i < .length; i++) {
-        html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
-             <img src="${[i].avatar}" alt="" width="100" height="100"> 
-             ${[i].message}
-             </div>`;
-      }
-      answer.innerHTML = html;
-    };
-    let 2 = function () {
-      html = "";
-      html +=`<b> : </b><a></a>`
-      for (let i = 0; i < .length; i++) {
-        html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
-             <img src="${[i].avatar}" alt="" width="100" height="100"> 
-             ${[i].message}
-             </div>`;
-      }
-      answer.innerHTML = html;
-    };
-    let 2 = function () {
-      html = "";
-      html +=`<b> : </b><a></a>`
-      for (let i = 0; i < .length; i++) {
-        html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
-             <img src="${[i].avatar}" alt="" width="100" height="100"> 
-             ${[i].message}
-             </div>`;
-      }
-      answer.innerHTML = html;
-    };
-    let 2 = function () {
-      html = "";
-      html +=`<b> : </b><a></a>`
-      for (let i = 0; i < .length; i++) {
-        html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
-             <img src="${[i].avatar}" alt="" width="100" height="100"> 
-             ${[i].message}
-             </div>`;
-      }
-      answer.innerHTML = html;
-    };
-    let 2 = function () {
-      html = "";
-      html +=`<b> : </b><a></a>`
-      for (let i = 0; i < .length; i++) {
-        html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
-             <img src="${[i].avatar}" alt="" width="100" height="100"> 
-             ${[i].message}
-             </div>`;
-      }
-      answer.innerHTML = html;
-    };
-    let 2 = function () {
-      html = "";
-      html +=`<b> : </b><a></a>`
-      for (let i = 0; i < .length; i++) {
-        html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
-             <img src="${[i].avatar}" alt="" width="100" height="100"> 
-             ${[i].message}
-             </div>`;
-      }
-      answer.innerHTML = html;
-    };
-let 2 = function () {
-  html = "";
-  html +=`<b> : </b><a></a>`
-  for (let i = 0; i < .length; i++) {
-    html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
-             <img src="${[i].avatar}" alt="" width="100" height="100"> 
-             ${[i].message}
-             </div>`;
   }
   answer.innerHTML = html;
 };
+
 let choko2 = function () {
   html = "";
   html +=`<b><del>チョコ</del> : </b><a>諸悪の根源。ランダムゲットはこいつしかこない。モルカーで唯一可愛くないかも。尊厳破壊状態は可愛い。</a>`
