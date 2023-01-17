@@ -1,60 +1,54 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>自己紹介ページ</title>
-
+  <title>Bootstrap component制御</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
+<div class="container">
+  <h1>Modalを制御するぞするぞ</h1>
 
-  <nav id="navbar-example2" class="navbar navbar-light bg-dark sticky-top" >
-    <a class="navbar-brand text-white" href="#">プロジェクト演習実践的web開発</a>
-    <ul class="nav nav-pills">
-      <li class="nav-item">
-        <a class="nav-link text-white" href="#top">挨拶</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-white" href="#fat">好きなもの</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-white" href="#mdo">おまけ</a>
-      </li>
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    クリックしてモーダルを起動
+  </button>
+  <button id="second-button" class="btn btn-secondary" onclick="clickSecondButton()">
+    2つ目のボタン
+  </button>
 
-    </ul>
-  </nav>
-  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
-
-
-    <div class="jumbotron jumbotron-fluid bg-primary" id="top">
-        <div class="container">
-          <h1 class="display-4">はじめまして。藤野琉大です。</h1>
-          <p class="lead">このページでは自分が好きなものを軽く紹介していきます。</p>
-          <p></p>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+       aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">タイトル</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
-    </div>
-    <div class="jumbotron bg-info" id="fat">
-      <div class="container">
-      <h1 class="display-4"><u class="font-weight-normal">好きなもの</u></h1>
-      <p class="lead"><span class="text-danger font-weight-bold">米津玄師</span>と<span class="text-danger font-weight-bold">RADWIMPS</span>が特に好きです。女王蜂とかamazarashiも一緒に聴くことが多いです。</p>
-      <p>モルカーの推しは<strong class="text-danger">シロモ</strong>。テディと救急車モルカーも好きです。</p>
-      <hr class="my-4">
-      <P>ゲームは下手なんで特別はまらない限りはあんまやらないです。はまったのはモンハン、マリカー、fall guysくらいですかね。</P>
+        <div class="modal-body" id="exampleModalBody">
+          モーダルダイアログのBODY
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+        </div>
       </div>
     </div>
-    <div class="alert alert-primary" role="alert" id="mdo">
-      <div class="container">
-      所々で気付く自分のpcスキルの無さって悲しいものがありますよね。同じ人います？
-      </div>
-    </div>
-
   </div>
+</div>
 
-
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+<script src="modal-control.js"></script>
 </body>
 </html>
