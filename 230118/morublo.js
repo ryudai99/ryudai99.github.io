@@ -54,7 +54,7 @@ let DJ =morus.filter(moru =>{
   return moru.name ==="DJ";
 });
 let pato =morus.filter(moru =>{
-  return moru.name ==="パト";
+  return moru.name ==="サイレン";
 });
 let dhufu =morus.filter(moru =>{
   return moru.name ==="ドゥーフー";
@@ -86,7 +86,7 @@ let choko =morus.filter(moru =>{
 
 let shiromo2 = function () {
   html = "";
-  html +=`<b>シロモ : </b><a>推しです大好き可愛すぎ</a>`
+  html +=`<b>シロモ : </b><a>推しです大好き可愛すぎ。ちょこちょこかわいそうな目にあっちゃうのが可愛い。でもやっぱり喜んでる所が一番かわいい。</a>`
   for (let i = 0; i < shiromo.length; i++) {
     html += `<div style ="padding:1px;margin:1px;border:1px solid #333333;">
              <img src="${shiromo[i].avatar}" alt="" width="100" height="100"> 
@@ -97,7 +97,7 @@ let shiromo2 = function () {
 };
 let tedhi2 = function () {
   html = "";
-  html +=`<b>テディ : </b><a>自由に突き進む感が可愛すぎる</a>`
+  html +=`<b>テディ : </b><a>自由に突き進む感が可愛すぎる。毎日でもごみ食べさせてあげたい。</a>`
   for (let i = 0; i < tedhi.length; i++) {
     html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
              <img src="${tedhi[i].avatar}" alt="" width="100" height="100"> 
@@ -109,19 +109,117 @@ let tedhi2 = function () {
 };
 let DJ2 = function () {
   html = "";
-  html +=`<b>DJモルカー : </b><a></a>`
+  html +=`<b>DJモルカー : </b><a>スタンプの可愛さに一目惚れ。ヘッドホンじゃなくて信号機がついてるんだと思ってた。</a>`
   for (let i = 0; i <DJ .length; i++) {
     html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
-             <img src="${[i].avatar}" alt="" width="100" height="100"> 
+             <img src="${DJ[i].avatar}" alt="" width="100" height="100"> 
              ${DJ[i].message}
              </div>`;
   }
   answer.innerHTML = html;
 };
-
+    let pato2 = function () {
+      html = "";
+      html +=`<b>救急モルカーとパトモルカー : </b><a>救急車は泣いてて可愛いんだけどパトカーは黄色いだけであんまり</a>`
+      for (let i = 0; i <pato .length; i++) {
+        html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
+             <img src="${pato[i].avatar}" alt="" width="100" height="100"> 
+             ${pato[i].message}
+             </div>`;
+      }
+      answer.innerHTML = html;
+    };
+    let dhufu2 = function () {
+      html = "";
+      html +=`<b>ドゥーフー : </b><a>かなり気が弱くてめちゃくちゃ可愛い。でも頭のわふわふはちょっと面白い。</a>`
+      for (let i = 0; i <dhufu .length; i++) {
+        html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
+             <img src="${dhufu[i].avatar}" alt="" width="100" height="100"> 
+             ${dhufu[i].message}
+             </div>`;
+      }
+      answer.innerHTML = html;
+    };
+    let peta2 = function () {
+      html = "";
+      html +=`<b>ペーター : </b><a>青髭が目立たなきゃ可愛いんだよね。おじさんっぽい。</a>`
+      for (let i = 0; i <peta .length; i++) {
+        html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
+             <img src="${peta[i].avatar}" alt="" width="100" height="100"> 
+             ${peta[i].message}
+             </div>`;
+      }
+      answer.innerHTML = html;
+    };
+    let tarako2 = function () {
+      html = "";
+      html +=`<b>タラコ : </b><a>リーゼントがなんとも言えなくてかわいい。色が最高。</a>`
+      for (let i = 0; i <tarako .length; i++) {
+        html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
+             <img src="${tarako[i].avatar}" alt="" width="100" height="100"> 
+             ${tarako[i].message}
+             </div>`;
+      }
+      answer.innerHTML = html;
+    };
+    let ebi2 = function () {
+      html = "";
+      html +=`<b>寿司モルカー(海老) : </b><a>ぬいぐるみだけすごい可愛い</a>`
+      for (let i = 0; i <ebi .length; i++) {
+        html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
+             <img src="${ebi[i].avatar}" alt="" width="100" height="100"> 
+             ${ebi[i].message}
+             </div>`;
+      }
+      answer.innerHTML = html;
+    };
+    let abi2 = function () {
+      html = "";
+      html +=`<b>アビー : </b><a>この見た目でプライドが高いのが何ともかわいい。ずっと痛車にしてたい。</a>`
+      for (let i = 0; i <abi .length; i++) {
+        html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
+             <img src="${abi[i].avatar}" alt="" width="100" height="100"> 
+             ${abi[i].message}
+             </div>`;
+      }
+      answer.innerHTML = html;
+    };
+    let rozu2 = function () {
+      html = "";
+      html +=`<b>ローズ : </b><a>モルカーなのにピアスしててかわいい</a>`
+      for (let i = 0; i <rozu .length; i++) {
+        html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
+             <img src="${rozu[i].avatar}" alt="" width="100" height="100"> 
+             ${rozu[i].message}
+             </div>`;
+      }
+      answer.innerHTML = html;
+    };
+    let inari2 = function () {
+      html = "";
+      html +=`<b>寿司モルカー(いなり) : </b><a>初登場回で可愛すぎたけど登場一瞬で悲しい</a>`
+      for (let i = 0; i <inari .length; i++) {
+        html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
+             <img src="${inari[i].avatar}" alt="" width="100" height="100"> 
+             ${inari[i].message}
+             </div>`;
+      }
+      answer.innerHTML = html;
+    };
+let poteto2 = function () {
+  html = "";
+  html +=`<b>ポテト : </b><a>主人公だからって優遇されててずるい。好きになれない。</a>`
+  for (let i = 0; i <poteto .length; i++) {
+    html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
+             <img src="${poteto[i].avatar}" alt="" width="100" height="100"> 
+             ${poteto[i].message}
+             </div>`;
+  }
+  answer.innerHTML = html;
+};
 let choko2 = function () {
   html = "";
-  html +=`<b><del>チョコ</del> : </b><a>諸悪の根源。ランダムゲットはこいつしかこない。モルカーで唯一可愛くないかも。尊厳破壊状態は可愛い。</a>`
+  html +=`<b><del>チョコ</del> : </b><a>諸悪の根源。ランダムゲットはこいつしかこない。モルカーで唯一可愛くないかも。グッズ何個かなくなっちゃった。尊厳破壊状態は可愛い。</a>`
   for (let i = 0; i < choko.length; i++) {
     html += `<div style ="padding:1px;margin:1px;border:1px solid #333333;">
              <img src="${choko[i].avatar}" alt="" width="100" height="100"> 
