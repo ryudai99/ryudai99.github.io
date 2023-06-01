@@ -3,8 +3,8 @@ let html ="";
 
 let morus = [
   {name:"シロモ",message:"めちゃでかぬいぐるみ史上最高の可愛さ！",avatar:"S__57909251.jpg"},
-  {name: "シロモ",message: "誰だこいつ目の色変だしきもすぎるだろ！！！",avatar: "S__57925637.jpg"},
-  {name: "シロモ",message: "もっときもい！！！ちいかわみたいな見た目になっちまってる！！！",avatar: "S__57925638.jpg"},
+  {name: "シロモ",message: "誰だこれは目がおかしすぎるよ！！！",avatar: "S__57925637.jpg"},
+  {name: "シロモ",message: "もっと変！！！ちいかわみたいな見た目になっちまってる！！！",avatar: "S__57925638.jpg"},
   {name: "シロモ",message: "目きらっきらだし質感がシロモに似合いすぎてるし最高に可愛い！！！",avatar: "S__57925639.jpg"},
   {name: "シロモ",message: "色どうしちまったんだよシロモ…",avatar: "S__57925640.jpg"},
   {name: "シロモ",message: "強盗に乗られて泣いてるかわいそう…でもシロモはそれがいい！！！",avatar: "S__57925641.jpg"},
@@ -40,8 +40,8 @@ let morus = [
   {name: "ポテト",message: "ポテトの割にはかわいい。",avatar: "S__57925670.jpg"},
   {name: "ポテト",message: "ぼこぼこしてるしあんまり可愛くないね。",avatar: "S__57925671.jpg"},
   {name: "ポテト",message: "狙いはこいつ以外！まぁプイプイならせればそれでヨシ！",avatar: "S__57925672.jpg"},
-  {name:"チョコ",message:"お前は二度と出てくるな",avatar: "S__57925634.jpg"},
-  {name:"チョコ",message:"お前は二度と出てくるな",avatar: "S__57925636.jpg"},
+  {name:"チョコ",message:"チョコばっかりでてこないで",avatar: "S__57925634.jpg"},
+  {name:"チョコ",message:"チョコばっかり出てこないで",avatar: "S__57925636.jpg"},
 ];
 
 let shiromo =morus.filter(moru =>{
@@ -208,7 +208,7 @@ let DJ2 = function () {
     };
 let poteto2 = function () {
   html = "";
-  html +=`<b>ポテト : </b><a>主人公だからって優遇されててずるい。好きになれない。</a>`
+  html +=`<b>ポテト : </b><a>主人公だからって優遇され過ぎてる。もう少し他のモルにも分けてあげて欲しい。</a>`
   for (let i = 0; i <poteto .length; i++) {
     html += `<div style ="padding:1px;margin:0;border:1px solid #333333;"> 
              <img src="${poteto[i].avatar}" alt="" width="100" height="100"> 
@@ -219,7 +219,7 @@ let poteto2 = function () {
 };
 let choko2 = function () {
   html = "";
-  html +=`<b><del>チョコ</del> : </b><a>諸悪の根源。ランダムゲットはこいつしかこない。モルカーで唯一可愛くないかも。グッズ何個かなくなっちゃった。尊厳破壊状態は可愛い。</a>`
+  html +=`<b><del>チョコ</del> : </b><a>諸悪の根源。ランダムゲットはこの子しかでない。可愛く無く見えてきた…。尊厳破壊状態は可愛い。</a>`
   for (let i = 0; i < choko.length; i++) {
     html += `<div style ="padding:1px;margin:1px;border:1px solid #333333;">
              <img src="${choko[i].avatar}" alt="" width="100" height="100"> 
