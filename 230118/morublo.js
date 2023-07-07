@@ -40,8 +40,8 @@ let morus = [
   {name: "ポテト",message: "ポテトの割にはかわいい。",avatar: "S__57925670.jpg"},
   {name: "ポテト",message: "ぼこぼこしてるしあんまり可愛くないね。",avatar: "S__57925671.jpg"},
   {name: "ポテト",message: "狙いはこいつ以外！まぁプイプイならせればそれでヨシ！",avatar: "S__57925672.jpg"},
-  {name:"チョコ",message:"チョコばっかりでてこないで",avatar: "S__57925634.jpg"},
-  {name:"チョコ",message:"チョコばっかり出てこないで",avatar: "S__57925636.jpg"},
+  {name:"チョコ",message:"チョコばっかりでてこないで",avatar: "S__63709188.jpg"},
+  {name:"チョコ",message:"チョコばっかり出てこないで",avatar: "S__63709189.jpg"},
 ];
 
 let shiromo =morus.filter(moru =>{
